@@ -10,7 +10,10 @@ for(i=0;i<gridSize*gridSize;i++){
     div.style.height = itemSize + "%";
     container.appendChild(div);
     div.addEventListener('mouseenter', ()=>{
-    div.style.backgroundColor = "black";
+        const r = Math.floor(Math.random()*256);
+        const g = Math.floor(Math.random()*256);
+        const b = Math.floor(Math.random()*256);
+    div.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
 })
 }
 }
