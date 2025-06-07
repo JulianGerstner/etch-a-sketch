@@ -1,19 +1,11 @@
 .container{
     display: flex;
-    height: 256px;
-    width: 256px;
+    height: 400px;
+    width: 400px;
     border: none;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    align-content: baseline;
 }
 div{
-    height: 16px;
-    width: 16px;
+    border: 1px solid;
     box-sizing: border-box;
-    border: solid 1px;
-    margin: 0;
-    padding: 0;
-    
 }
