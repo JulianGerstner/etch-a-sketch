@@ -1,3 +1,25 @@
+body{
+    background-color: #0b2d42;
+    font-family: sans-serif;
+}
+.page{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin-top: 50px;
+    color: aliceblue;
+}
+button{
+    width: 120px;
+    height: 30px;
+    margin: 30px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    }
 .container{
     display: flex;
     height: 400px;
@@ -5,8 +27,10 @@
     border: none;
     flex-wrap: wrap;
     border: 5px solid grey;
+    background-color: white;
 }
 div{
-    border: 0.5px solid;
+    border-right: 0.5px solid;
+    border-bottom: 0.5px solid;
     box-sizing: border-box;
 }

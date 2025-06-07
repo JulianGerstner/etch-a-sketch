@@ -19,10 +19,10 @@ const btn = document.querySelector("#btn");
 btn.addEventListener("click", ()=>{
     do{
     gridSize=parseInt(prompt("Grid size(1-100):"));
-    if(gridSize>100 || gridSize<1){
+    if(gridSize>100 || gridSize<1 || isNaN(gridSize)){
         alert("Insert a valid value");
     }
-    }while(gridSize<1 || gridSize>100);
+    }while(gridSize<1 || gridSize>100 || isNaN(gridSize));
     createGrid(gridSize);
 })
 
