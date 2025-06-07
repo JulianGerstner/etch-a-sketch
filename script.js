@@ -17,7 +17,12 @@ for(i=0;i<gridSize*gridSize;i++){
 createGrid(gridSize);
 const btn = document.querySelector("#btn");
 btn.addEventListener("click", ()=>{
-    gridSize=parseInt(prompt("Grid size:"));
+    do{
+    gridSize=parseInt(prompt("Grid size(1-100):"));
+    if(gridSize>100 || gridSize<1){
+        alert("Insert a valid value");
+    }
+    }while(gridSize<1 || gridSize>100);
     createGrid(gridSize);
 })
 

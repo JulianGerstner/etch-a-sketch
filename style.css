@@ -4,8 +4,9 @@
     width: 400px;
     border: none;
     flex-wrap: wrap;
+    border: 5px solid grey;
 }
 div{
-    border: 1px solid;
+    border: 0.5px solid;
     box-sizing: border-box;
 }
